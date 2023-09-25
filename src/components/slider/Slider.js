@@ -4,7 +4,7 @@ import { classList } from 'utils/stylesheet';
 import { getValueInRange } from 'utils/number';
 import Style from './Slider.module.css';
 
-const calcPercentage = (value, min, max) => {
+export const calcPercentage = (value, min, max) => {
 	if (min < max) {
 		return (value - min) / (max - min) * 100;
 	}
