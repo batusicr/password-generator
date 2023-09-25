@@ -11,11 +11,17 @@
     --color-gray-800: #646779;
     --color-gray-900: #323240;
 
+    /* Primary */
+    --color-blue-100: #d9e5fd;
+    --color-blue-200: #b3c6ff;
+    --color-blue-300: #748bff;
+    --color-blue-500: #4747fc;
+    --color-blue-700: #2d2de8;
+    --color-blue-800: #1128bd;
+    --color-blue-900: #00178b;
+
     /* Font size */
     --font-size-xs: 0.75rem;
     --font-size-s: 0.875rem;
     --font-size-m: 1rem;
-    --font-size-l: 1.125rem;
-    --font-size-xl: 1.75rem;
-    --font-size-xxl: 2rem;
 }

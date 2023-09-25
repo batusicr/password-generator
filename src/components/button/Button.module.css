@@ -1,0 +1,21 @@
+.Button {
+	font-size: var(--font-size-xs);
+	font-weight: 600;
+	line-height: 1.25rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: var(--color-white);
+	padding: 0.75rem 1rem;
+	outline: 0;
+	border: none;
+	border-radius: 1rem;
+	box-shadow: 0 0 0 1px var(--color-gray-200);
+	background-color: var(--color-blue-500);
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.Button:hover {
+	box-shadow: 0 0 0 1px var(--color-gray-300);
+	background-color: var(--color-blue-700);
+}
